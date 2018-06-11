@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+
+<style>
+body {
+	background-image:url("img/photo.png");
+	background-repeat:no-repeat;
+	height:600px;
+	width:800px;
+	margin:0px;
+	border: solid 1px #979797;
+	-moz-display:flex;
+	-webkit-display:flex;
+	-ms-display:flex;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+.cadreNice {
+	order:1;
+	margin-left:80px;
+	margin-top:40px;
+}
+.fondNice {
+	position:absolute;
+	width: 640px;
+	height: 176px;
+	object-fit: contain;
+	-moz-mix-blend-mode: multiply;
+	-webkit-mix-blend-mode: multiply;
+	-ms-mix-blend-mode: multiply;
+	mix-blend-mode: multiply;
+	-moz-background-image: linear-gradient (toleft(rgba(74, 74, 74, 0.85), rgba(74, 74, 74, 0.85)));
+	-webkit-background-image: linear-gradient (toleft(rgba(74, 74, 74, 0.85), rgba(74, 74, 74, 0.85)));
+	-ms-background-image: linear-gradient (toleft(rgba(74, 74, 74, 0.85), rgba(74, 74, 74, 0.85)));	
+	background-image: linear-gradient (toleft(rgba(74, 74, 74, 0.85), rgba(74, 74, 74, 0.85)));
+}
+.titreNice {
+	position:relative;
+	left:40px;
+	width: 98px;
+	height: 57px;
+	font-family: Helvetica;
+	font-size: 48px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+div.hotelsVols {
+	margin:0px;
+	position:absolute;
+	left:120px;
+	top:145px;
+	width: 320px;
+	height: 39px;
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 31px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+.point {
+	vertical-align:20%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+}
+.gift {
+	position:relative;
+	left:522px;
+	transform:translateY(-100%);
+}
+.cadreOffrir {
+	order:2;
+	margin-bottom:40px;
+	margin-left:383px;
+	width:337px;
+	height:77px;
+	border:2px solid #ffffff;
+	border-radius:25px;
+}
+.offrir {
+	position:relative;
+	width: 337px;
+	height: 77px;
+	-moz-mix-blend-mode: multiply;
+	-webkit-mix-blend-mode: multiply;
+	-ms-mix-blend-mode: multiply;
+	mix-blend-mode:multiply;
+	-moz-background-image: linear-gradient(#4a90e2, #4a90e2);
+	-webkit-background-image: linear-gradient(#4a90e2, #4a90e2);
+	-ms-background-image: linear-gradient(#4a90e2, #4a90e2);
+	background-image: linear-gradient(#4a90e2, #4a90e2);
+	border-radius:25px;
+	z-index:0;
+}
+.texteOffrir {
+	position:absolute;
+	top:501px;
+	left:415px;
+	width: 225px;
+	height: 39px;
+	font-family: Helvetica;
+	font-size: 30px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+	z-index:2;
+}
+.fleche {
+	position:absolute;
+	top:512px;
+	left:677px;
+	width: 12px;
+	height: 20px;
+	object-fit: contain;
+	z-index:2;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<figure class="cadreNice">
+<img src="img/cadreNice.svg" class="fondNice"/>
+
+<h1 class="titreNice">Nice</h1>
+<div class="hotelsVols"><span>1&nbsp;204 hôtels</span><span class="point"> . </span><span class="hotelsVols">35 vols</span></div>
+<img src="img/gift.svg" class="gift"/>
+
+</figure>
+
+<figure class="cadreOffrir">
+<div class="offrir"></div>
+<div class="texteOffrir">Offrir ce voyage</div>
+<img class="fleche" src="img/go.svg"/>
+
+</figure>
+
+
+
+
+
+
+</body>
+
+
+</html>

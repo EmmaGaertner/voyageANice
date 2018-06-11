@@ -1,0 +1,159 @@
+﻿<html>
+<head>
+<meta charset="utf-8">
+<title>Exercice integration Emma</title>
+<style>
+
+.cadrePhoto{
+	margin:0px;
+	width: 800px;
+  height: 600px;
+  object-fit: contain;
+  border: solid 1px #979797;
+}
+
+.cadreOffrir{
+	position:absolute;
+	left:383px;
+	top:483px;
+	width:337px;
+	height:77px;
+	border:2px solid #ffffff;
+	border-radius:25px;
+	margin:0px;
+}
+
+.offrir{
+	position:absolute;
+	width: 337px;
+	height: 77px;
+	mix-blend-mode:multiply;
+	background-image: linear-gradient(#4a90e2 , #4a90e2);
+	border-radius:25px;	
+ }
+
+.texteOffrir{
+	position:absolute;
+	left:32px;
+	top:18px;
+  width: 250px;
+  height: 39px;
+   font-family: Roboto, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  z-index:2;
+}
+
+.go{
+	position:absolute;
+	left:294px;
+	top:31px;
+  width: 12px;
+  height: 20px;
+z-index:2;
+}
+
+
+.cadreNice{
+	position:absolute;
+	left:80px;
+	top:40px;
+	margin:0px;
+	 width: 640px;
+  height: 176px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  background-image: linear-gradient(toleft(rgba(74, 74, 74, 0.85), rgba(74, 74, 74, 0.85)));
+}
+
+.gift{
+	position:absolute;
+	left:602px;
+	top:98px;
+	width: 60px;
+  height: 60px;
+  object-fit: contain;
+  z-index:3;
+}
+
+.Nice{
+	margin:0px;
+	position:absolute;
+	left:120px;
+	top:72px;
+	 width: 98px;
+  height: 57px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+div.hotelsVols{
+	margin:0px;
+	position:absolute;
+	left:120px;
+	top:145px;
+	width: 320px;
+  height: 39px;
+   font-family: Roboto, Helvetica, sans-serif;
+  font-size: 31px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.point{
+	vertical-align:20%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<figure class="cadrePhoto">
+<img class="photo" src="img/photo.png"
+srcset="img/photo@2x.png 2x,
+        img/photo@3x.png 3x"/>
+</figure>
+ 
+ 
+ <figure class="cadreOffrir">
+ <div class="offrir"> </div>
+ <span class="texteOffrir">Offrir ce voyage</span><span class="shapeOffrir"></span><img class="go" src="img/go.svg" />
+  </figure>
+
+     
+<figure>
+<img src="img/cadreNice.svg" class="cadreNice"/>
+ <img src="img/gift.svg" class="gift" /> 
+
+<div class="Nice">Nice</div>
+
+<div class="hotelsVols"><span>1 204 hôtels</span><span class="point"> . </span><span>35 vols</span></div>
+</figure>
+
+
+
+</body>
+</html>
